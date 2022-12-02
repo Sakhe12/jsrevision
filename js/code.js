@@ -134,13 +134,55 @@
 // }
 // console.log(sumOf(1,2,3,4,5));
 
-//Constructor function you can use positive numbers on the square brackets. You need to use .at to use negative numbers
-function Person(...details) {
-    this.firstName = details[0];
-    this.lastName = details[1];
-    this.email = details.flat(-1)
-}
-let person1 = new Person("Asandile", "Langeni", "Asandile@ymail.com")
-console.log(person1);
-console.dir(person1)
+// function Person(...details) {
+//     this.firstName = details[0];
+//     this.lastName = details[1];
+//     this.email = details.flat(-1)
+// }
+// let person1 = new Person("Asandile", "Langeni", "Asandile@ymail.com")
+// console.log(person1);
+// console.dir(person1)
+// let numbers = [1, 2, 3, 4, 5,];
+// let sum = numbers.reduce((a, b)=>{
+//     return a + b
+// })
+///let numbers = [1, 2, 3, 4, 5,];
+// console.log(`Sum: ${sum}`);
+// for(let numb of numbers) {
+//     console.log(numb /2);
+// }
+// let double = numbers.map((item)=> {
+//     return item * 2
+// })
+// console.log("Current Array: ", numbers);
+// console.log("Double: ", double);
+// let numbers = [1, 2, 3, 4, 5,];
+// let people = [
+//     {
+//         id: 1,
+//         firstName: 'Danny',
+//         surname: 'Henk'
+//     },
+//     {
+//         id: 2,
+//         firstName: 'Dave',
+//         surname: 'Henky'
+//     }
+// ]
+// console.table(people);
+
+// let peopleFirstName = people.map ((item)=> {
+//     return item.firstName;
+// })
+// console.log(peopleFirstName);
+// addition(5, 8, 3);
+// function addition(...args) {
+    // let sum = args.reduce((a, b)=> {
+    //     return a + b;
+    // })
+    // console.log(sum);
+//     console.log(args);
+// }
+// addition()
+// 
 
